@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEE973F42D3EE2B600729D6A /* worktesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE973F32D3EE2B600729D6A /* worktesApp.swift */; };
+		CEE973F62D3EE2B600729D6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE973F52D3EE2B600729D6A /* ContentView.swift */; };
+		CEE973F82D3EE2B700729D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE973F72D3EE2B700729D6A /* Assets.xcassets */; };
+		CEE973FB2D3EE2B700729D6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE973FA2D3EE2B700729D6A /* Preview Assets.xcassets */; };
+		CEE974052D3EE2B700729D6A /* worktesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE974042D3EE2B700729D6A /* worktesTests.swift */; };
+		CEE9740F2D3EE2B700729D6A /* worktesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9740E2D3EE2B700729D6A /* worktesUITests.swift */; };
+		CEE974112D3EE2B700729D6A /* worktesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE974102D3EE2B700729D6A /* worktesUITestsLaunchTests.swift */; };
+		CEE9741E2D3FE96A00729D6A /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9741D2D3FE96A00729D6A /* VideoListView.swift */; };
+		CEE974202D3FE99700729D6A /* WorkoutPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9741F2D3FE99700729D6A /* WorkoutPlanView.swift */; };
+		CEE974222D3FE9AE00729D6A /* StartWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE974212D3FE9AE00729D6A /* StartWorkoutView.swift */; };
+		CEE974242D3FEB6400729D6A /* exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = CEE974232D3FEB6300729D6A /* exercises.json */; };
+		CEE974262D3FEB8600729D6A /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE974252D3FEB8600729D6A /* Exercise.swift */; };
+		CEE974282D3FED3400729D6A /* workoutPlan.json in Resources */ = {isa = PBXBuildFile; fileRef = CEE974272D3FED3400729D6A /* workoutPlan.json */; };
+		CEE9742A2D3FED5A00729D6A /* WorkoutDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE974292D3FED5A00729D6A /* WorkoutDay.swift */; };
+		CEE9742C2D3FF22600729D6A /* WorkoutTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9742B2D3FF22600729D6A /* WorkoutTrackerView.swift */; };
+		CEE9742E2D3FF2C800729D6A /* WorkoutHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9742D2D3FF2C800729D6A /* WorkoutHistory.swift */; };
+		CEE974302D3FF2F100729D6A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9742F2D3FF2F100729D6A /* HistoryView.swift */; };
+		CEE974322D40082300729D6A /* CompletedWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE974312D40082300729D6A /* CompletedWorkout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEE974012D3EE2B700729D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE973E82D3EE2B500729D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE973EF2D3EE2B500729D6A;
+			remoteInfo = worktes;
+		};
+		CEE9740B2D3EE2B700729D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEE973E82D3EE2B500729D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE973EF2D3EE2B500729D6A;
+			remoteInfo = worktes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEE973F02D3EE2B500729D6A /* worktes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = worktes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE973F32D3EE2B600729D6A /* worktesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worktesApp.swift; sourceTree = "<group>"; };
+		CEE973F52D3EE2B600729D6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEE973F72D3EE2B700729D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEE973FA2D3EE2B700729D6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEE974002D3EE2B700729D6A /* worktesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = worktesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE974042D3EE2B700729D6A /* worktesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worktesTests.swift; sourceTree = "<group>"; };
+		CEE9740A2D3EE2B700729D6A /* worktesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = worktesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE9740E2D3EE2B700729D6A /* worktesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worktesUITests.swift; sourceTree = "<group>"; };
+		CEE974102D3EE2B700729D6A /* worktesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worktesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEE9741D2D3FE96A00729D6A /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		CEE9741F2D3FE99700729D6A /* WorkoutPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanView.swift; sourceTree = "<group>"; };
+		CEE974212D3FE9AE00729D6A /* StartWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWorkoutView.swift; sourceTree = "<group>"; };
+		CEE974232D3FEB6300729D6A /* exercises.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = exercises.json; sourceTree = "<group>"; };
+		CEE974252D3FEB8600729D6A /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		CEE974272D3FED3400729D6A /* workoutPlan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = workoutPlan.json; sourceTree = "<group>"; };
+		CEE974292D3FED5A00729D6A /* WorkoutDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDay.swift; sourceTree = "<group>"; };
+		CEE9742B2D3FF22600729D6A /* WorkoutTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTrackerView.swift; sourceTree = "<group>"; };
+		CEE9742D2D3FF2C800729D6A /* WorkoutHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistory.swift; sourceTree = "<group>"; };
+		CEE9742F2D3FF2F100729D6A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		CEE974312D40082300729D6A /* CompletedWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedWorkout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEE973ED2D3EE2B500729D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE973FD2D3EE2B700729D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE974072D3EE2B700729D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEE973E72D3EE2B500729D6A = {
+			isa = PBXGroup;
+			children = (
+				CEE974312D40082300729D6A /* CompletedWorkout.swift */,
+				CEE9742F2D3FF2F100729D6A /* HistoryView.swift */,
+				CEE9742D2D3FF2C800729D6A /* WorkoutHistory.swift */,
+				CEE9742B2D3FF22600729D6A /* WorkoutTrackerView.swift */,
+				CEE974292D3FED5A00729D6A /* WorkoutDay.swift */,
+				CEE974252D3FEB8600729D6A /* Exercise.swift */,
+				CEE974212D3FE9AE00729D6A /* StartWorkoutView.swift */,
+				CEE974232D3FEB6300729D6A /* exercises.json */,
+				CEE974272D3FED3400729D6A /* workoutPlan.json */,
+				CEE9741F2D3FE99700729D6A /* WorkoutPlanView.swift */,
+				CEE9741D2D3FE96A00729D6A /* VideoListView.swift */,
+				CEE973F22D3EE2B600729D6A /* worktes */,
+				CEE974032D3EE2B700729D6A /* worktesTests */,
+				CEE9740D2D3EE2B700729D6A /* worktesUITests */,
+				CEE973F12D3EE2B500729D6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEE973F12D3EE2B500729D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEE973F02D3EE2B500729D6A /* worktes.app */,
+				CEE974002D3EE2B700729D6A /* worktesTests.xctest */,
+				CEE9740A2D3EE2B700729D6A /* worktesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEE973F22D3EE2B600729D6A /* worktes */ = {
+			isa = PBXGroup;
+			children = (
+				CEE973F32D3EE2B600729D6A /* worktesApp.swift */,
+				CEE973F52D3EE2B600729D6A /* ContentView.swift */,
+				CEE973F72D3EE2B700729D6A /* Assets.xcassets */,
+				CEE973F92D3EE2B700729D6A /* Preview Content */,
+			);
+			path = worktes;
+			sourceTree = "<group>";
+		};
+		CEE973F92D3EE2B700729D6A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEE973FA2D3EE2B700729D6A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEE974032D3EE2B700729D6A /* worktesTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE974042D3EE2B700729D6A /* worktesTests.swift */,
+			);
+			path = worktesTests;
+			sourceTree = "<group>";
+		};
+		CEE9740D2D3EE2B700729D6A /* worktesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9740E2D3EE2B700729D6A /* worktesUITests.swift */,
+				CEE974102D3EE2B700729D6A /* worktesUITestsLaunchTests.swift */,
+			);
+			path = worktesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEE973EF2D3EE2B500729D6A /* worktes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE974142D3EE2B700729D6A /* Build configuration list for PBXNativeTarget "worktes" */;
+			buildPhases = (
+				CEE973EC2D3EE2B500729D6A /* Sources */,
+				CEE973ED2D3EE2B500729D6A /* Frameworks */,
+				CEE973EE2D3EE2B500729D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = worktes;
+			productName = worktes;
+			productReference = CEE973F02D3EE2B500729D6A /* worktes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEE973FF2D3EE2B700729D6A /* worktesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE974172D3EE2B700729D6A /* Build configuration list for PBXNativeTarget "worktesTests" */;
+			buildPhases = (
+				CEE973FC2D3EE2B700729D6A /* Sources */,
+				CEE973FD2D3EE2B700729D6A /* Frameworks */,
+				CEE973FE2D3EE2B700729D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE974022D3EE2B700729D6A /* PBXTargetDependency */,
+			);
+			name = worktesTests;
+			productName = worktesTests;
+			productReference = CEE974002D3EE2B700729D6A /* worktesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEE974092D3EE2B700729D6A /* worktesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEE9741A2D3EE2B700729D6A /* Build configuration list for PBXNativeTarget "worktesUITests" */;
+			buildPhases = (
+				CEE974062D3EE2B700729D6A /* Sources */,
+				CEE974072D3EE2B700729D6A /* Frameworks */,
+				CEE974082D3EE2B700729D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEE9740C2D3EE2B700729D6A /* PBXTargetDependency */,
+			);
+			name = worktesUITests;
+			productName = worktesUITests;
+			productReference = CEE9740A2D3EE2B700729D6A /* worktesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEE973E82D3EE2B500729D6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CEE973EF2D3EE2B500729D6A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CEE973FF2D3EE2B700729D6A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CEE973EF2D3EE2B500729D6A;
+					};
+					CEE974092D3EE2B700729D6A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CEE973EF2D3EE2B500729D6A;
+					};
+				};
+			};
+			buildConfigurationList = CEE973EB2D3EE2B500729D6A /* Build configuration list for PBXProject "worktes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEE973E72D3EE2B500729D6A;
+			productRefGroup = CEE973F12D3EE2B500729D6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEE973EF2D3EE2B500729D6A /* worktes */,
+				CEE973FF2D3EE2B700729D6A /* worktesTests */,
+				CEE974092D3EE2B700729D6A /* worktesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEE973EE2D3EE2B500729D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE973FB2D3EE2B700729D6A /* Preview Assets.xcassets in Resources */,
+				CEE973F82D3EE2B700729D6A /* Assets.xcassets in Resources */,
+				CEE974282D3FED3400729D6A /* workoutPlan.json in Resources */,
+				CEE974242D3FEB6400729D6A /* exercises.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE973FE2D3EE2B700729D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE974082D3EE2B700729D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEE973EC2D3EE2B500729D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE9742E2D3FF2C800729D6A /* WorkoutHistory.swift in Sources */,
+				CEE9742A2D3FED5A00729D6A /* WorkoutDay.swift in Sources */,
+				CEE973F62D3EE2B600729D6A /* ContentView.swift in Sources */,
+				CEE974202D3FE99700729D6A /* WorkoutPlanView.swift in Sources */,
+				CEE974322D40082300729D6A /* CompletedWorkout.swift in Sources */,
+				CEE973F42D3EE2B600729D6A /* worktesApp.swift in Sources */,
+				CEE974222D3FE9AE00729D6A /* StartWorkoutView.swift in Sources */,
+				CEE9742C2D3FF22600729D6A /* WorkoutTrackerView.swift in Sources */,
+				CEE974302D3FF2F100729D6A /* HistoryView.swift in Sources */,
+				CEE9741E2D3FE96A00729D6A /* VideoListView.swift in Sources */,
+				CEE974262D3FEB8600729D6A /* Exercise.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE973FC2D3EE2B700729D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE974052D3EE2B700729D6A /* worktesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEE974062D3EE2B700729D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE974112D3EE2B700729D6A /* worktesUITestsLaunchTests.swift in Sources */,
+				CEE9740F2D3EE2B700729D6A /* worktesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEE974022D3EE2B700729D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE973EF2D3EE2B500729D6A /* worktes */;
+			targetProxy = CEE974012D3EE2B700729D6A /* PBXContainerItemProxy */;
+		};
+		CEE9740C2D3EE2B700729D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEE973EF2D3EE2B500729D6A /* worktes */;
+			targetProxy = CEE9740B2D3EE2B700729D6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEE974122D3EE2B700729D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEE974132D3EE2B700729D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEE974152D3EE2B700729D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"worktes/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F4KJAS4RL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tttfatihayse.worktes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEE974162D3EE2B700729D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"worktes/Preview Content\"";
+				DEVELOPMENT_TEAM = 3F4KJAS4RL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tttfatihayse.worktes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEE974182D3EE2B700729D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F4KJAS4RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tttfatihayse.worktesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worktes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/worktes";
+			};
+			name = Debug;
+		};
+		CEE974192D3EE2B700729D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F4KJAS4RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tttfatihayse.worktesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worktes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/worktes";
+			};
+			name = Release;
+		};
+		CEE9741B2D3EE2B700729D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F4KJAS4RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tttfatihayse.worktesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = worktes;
+			};
+			name = Debug;
+		};
+		CEE9741C2D3EE2B700729D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F4KJAS4RL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tttfatihayse.worktesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = worktes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEE973EB2D3EE2B500729D6A /* Build configuration list for PBXProject "worktes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE974122D3EE2B700729D6A /* Debug */,
+				CEE974132D3EE2B700729D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE974142D3EE2B700729D6A /* Build configuration list for PBXNativeTarget "worktes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE974152D3EE2B700729D6A /* Debug */,
+				CEE974162D3EE2B700729D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE974172D3EE2B700729D6A /* Build configuration list for PBXNativeTarget "worktesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE974182D3EE2B700729D6A /* Debug */,
+				CEE974192D3EE2B700729D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEE9741A2D3EE2B700729D6A /* Build configuration list for PBXNativeTarget "worktesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEE9741B2D3EE2B700729D6A /* Debug */,
+				CEE9741C2D3EE2B700729D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEE973E82D3EE2B500729D6A /* Project object */;
+}

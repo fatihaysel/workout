@@ -1,0 +1,740 @@
+[
+  {
+    "exerciseName": "DB Chest Supported Row (mid/upper back)",
+    "videoUrl": "https://youtu.be/kNvy2_9Ji2w",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/kNvy2_9Ji2w"
+  },
+  {
+    "exerciseName": "Barbell Row (mid/upper back)",
+    "videoUrl": "https://youtu.be/FTCmwlfZ29A",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/FTCmwlfZ29A"
+  },
+  {
+    "exerciseName": "Seated Cable Row (mid/upper back)",
+    "videoUrl": "https://youtu.be/Q-5V5T55giY",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/Q-5V5T55giY"
+  },
+  {
+    "exerciseName": "Chest Supported Machine Row",
+    "videoUrl": "https://youtu.be/iDiVxqvHGWY",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/iDiVxqvHGWY"
+  },
+  {
+    "exerciseName": "Lat Pulldown",
+    "videoUrl": "https://youtu.be/AvYZZhEl7Xk",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/AvYZZhEl7Xk"
+  },
+  {
+    "exerciseName": "(Weighted) Pull-Ups",
+    "videoUrl": "https://youtu.be/w_yuTRQd6HA",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/w_yuTRQd6HA"
+  },
+  {
+    "exerciseName": "Kneeling One Arm Lat Pulldown",
+    "videoUrl": "https://youtu.be/PkA-D-Ld4tE",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/PkA-D-Ld4tE"
+  },
+  {
+    "exerciseName": "3 Point Dumbbell Row",
+    "videoUrl": "https://youtu.be/hrBLmuQ_vq8",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/hrBLmuQ_vq8"
+  },
+  {
+    "exerciseName": "Barbell Row (lat focus)",
+    "videoUrl": "https://youtu.be/tS5lKXxtNvE",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/tS5lKXxtNvE"
+  },
+  {
+    "exerciseName": "(Weighted) Chin-Ups",
+    "videoUrl": "https://youtu.be/-TZRdvUS7Qo",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/-TZRdvUS7Qo"
+  },
+  {
+    "exerciseName": "Banded Pull-Ups",
+    "videoUrl": "https://youtu.be/VGm-f5-T5no",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/VGm-f5-T5no"
+  },
+  {
+    "exerciseName": "Pull-Up Negatives",
+    "videoUrl": "https://youtu.be/SyMSay4zrsA",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/SyMSay4zrsA"
+  },
+  {
+    "exerciseName": "Kneeling Lat Pulldown",
+    "videoUrl": "https://youtu.be/4LxKeTqlpZA",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/4LxKeTqlpZA"
+  },
+  {
+    "exerciseName": "Weighted Chin-Ups",
+    "videoUrl": "https://youtu.be/-TZRdvUS7Qo",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/-TZRdvUS7Qo"
+  },
+  {
+    "exerciseName": "Lat Focused Cable Row",
+    "videoUrl": "https://youtu.be/ZaEnZ47cDTk",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/ZaEnZ47cDTk"
+  },
+  {
+    "exerciseName": "Inverted Row",
+    "videoUrl": "https://youtu.be/SyMSay4zrsA",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/SyMSay4zrsA"
+  },
+  {
+    "exerciseName": "Chest Supported DB Row (lat focus)",
+    "videoUrl": "https://youtu.be/I2Unz9FR0sc",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/I2Unz9FR0sc"
+  },
+  {
+    "exerciseName": "Half-Kneeling Cable Row",
+    "videoUrl": "https://youtu.be/tTev-zsqR4A",
+    "targetMuscleGroup": "Back",
+    "link": "https://youtu.be/tTev-zsqR4A"
+  },
+  {
+    "exerciseName": "Barbell Deadlift",
+    "videoUrl": "https://youtu.be/JL1tJTEmxfw",
+    "targetMuscleGroup": "Back/Legs",
+    "link": "https://youtu.be/JL1tJTEmxfw"
+  },
+  {
+    "exerciseName": "Trap Bar Deadlift*",
+    "videoUrl": "https://youtu.be/5mnlJtf-7WM",
+    "targetMuscleGroup": "Back/Legs",
+    "link": "https://youtu.be/5mnlJtf-7WM"
+  },
+  {
+    "exerciseName": "Sumo Deadlift*",
+    "videoUrl": "https://youtu.be/9rXKd-_DaRs",
+    "targetMuscleGroup": "Back/Legs",
+    "link": "https://youtu.be/9rXKd-_DaRs"
+  },
+  {
+    "exerciseName": "Incline Dumbbell Curls",
+    "videoUrl": "https://youtu.be/3D56VDVkQnM",
+    "targetMuscleGroup": "Biceps",
+    "link": "https://youtu.be/3D56VDVkQnM"
+  },
+  {
+    "exerciseName": "Behind Body Cable Curls",
+    "videoUrl": "https://youtu.be/S2CNDlAY8kY",
+    "targetMuscleGroup": "Biceps",
+    "link": "https://youtu.be/S2CNDlAY8kY"
+  },
+  {
+    "exerciseName": "Barbell Curl",
+    "videoUrl": "https://youtu.be/-ClfZ00zo8c",
+    "targetMuscleGroup": "Biceps",
+    "link": "https://youtu.be/-ClfZ00zo8c"
+  },
+  {
+    "exerciseName": "Hammer Curls",
+    "videoUrl": "https://youtu.be/OrGL-ymYREg",
+    "targetMuscleGroup": "Biceps",
+    "link": "https://youtu.be/OrGL-ymYREg"
+  },
+  {
+    "exerciseName": "Rope Cable Curls (neutral grip)",
+    "videoUrl": "https://youtu.be/0vEzBCydrU0",
+    "targetMuscleGroup": "Biceps",
+    "link": "https://youtu.be/0vEzBCydrU0"
+  },
+  {
+    "exerciseName": "Dumbbell Spider Curls",
+    "videoUrl": "https://youtu.be/hDDcQkCxHjE",
+    "targetMuscleGroup": "Biceps",
+    "link": "https://youtu.be/hDDcQkCxHjE"
+  },
+  {
+    "exerciseName": "Standing Cable Curl",
+    "videoUrl": "https://youtu.be/8Bb-ak2lB8E",
+    "targetMuscleGroup": "Biceps",
+    "link": "https://youtu.be/8Bb-ak2lB8E"
+  },
+  {
+    "exerciseName": "Seated Dumbbell Curls",
+    "videoUrl": "https://youtu.be/qUAzPq4B2aw",
+    "targetMuscleGroup": "Biceps",
+    "link": "https://youtu.be/qUAzPq4B2aw"
+  },
+  {
+    "exerciseName": "Seated Weighted Calf Raise",
+    "videoUrl": "https://youtu.be/2TkLMol2bCo",
+    "targetMuscleGroup": "Calves",
+    "link": "https://youtu.be/2TkLMol2bCo"
+  },
+  {
+    "exerciseName": "Leg Press Calf Raise",
+    "videoUrl": "https://youtu.be/s8yUXsZrgE0",
+    "targetMuscleGroup": "Calves",
+    "link": "https://youtu.be/s8yUXsZrgE0"
+  },
+  {
+    "exerciseName": "Standing Weighted Calf Raise",
+    "videoUrl": "https://youtu.be/q2Eigaa9dKU",
+    "targetMuscleGroup": "Calves",
+    "link": "https://youtu.be/q2Eigaa9dKU"
+  },
+  {
+    "exerciseName": "Single Leg Weighted Calf Raise",
+    "videoUrl": "https://youtu.be/cRKA_Qdut7I",
+    "targetMuscleGroup": "Calves",
+    "link": "https://youtu.be/cRKA_Qdut7I"
+  },
+  {
+    "exerciseName": "Seated Bodyweight Calf Raise",
+    "videoUrl": "https://youtu.be/jW-cNnwRJ7E",
+    "targetMuscleGroup": "Calves",
+    "link": "https://youtu.be/jW-cNnwRJ7E"
+  },
+  {
+    "exerciseName": "Toes-Elevated Smith Machine Calf Raise",
+    "videoUrl": "https://youtu.be/_ChZv2iluM8",
+    "targetMuscleGroup": "Calves",
+    "link": "https://youtu.be/_ChZv2iluM8"
+  },
+  {
+    "exerciseName": "Barbell Bench Press",
+    "videoUrl": "https://youtu.be/pCGVSBk0bIQ",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/pCGVSBk0bIQ"
+  },
+  {
+    "exerciseName": "Flat Dumbbell Press",
+    "videoUrl": "https://youtu.be/g14dhC5KYBM",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/g14dhC5KYBM"
+  },
+  {
+    "exerciseName": "Flat Machine Chest Press",
+    "videoUrl": "https://youtu.be/sO8lFa9CidE",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/sO8lFa9CidE"
+  },
+  {
+    "exerciseName": "Flat Smith Machine Chest Press",
+    "videoUrl": "https://youtu.be/3Z3C44SXSQE",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/3Z3C44SXSQE"
+  },
+  {
+    "exerciseName": "Seated Flat Cable Press",
+    "videoUrl": "https://youtu.be/hPpNTAEDnxM",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/hPpNTAEDnxM"
+  },
+  {
+    "exerciseName": "Neutral Grip DB Press*",
+    "videoUrl": "https://youtu.be/N-kUwH1uf9c",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/N-kUwH1uf9c"
+  },
+  {
+    "exerciseName": "(Banded) Decline Push-Ups",
+    "videoUrl": "https://youtu.be/LdahU9kB-u0",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/LdahU9kB-u0"
+  },
+  {
+    "exerciseName": "Standing High To Low Cable Fly",
+    "videoUrl": "https://youtu.be/JfZjng7jAKs",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/JfZjng7jAKs"
+  },
+  {
+    "exerciseName": "Decline Dumbbell Press",
+    "videoUrl": "https://youtu.be/pSOseCLdzIY",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/pSOseCLdzIY"
+  },
+  {
+    "exerciseName": "Decline Machine Chest Press",
+    "videoUrl": "https://youtu.be/H4R-LiTJeH8",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/H4R-LiTJeH8"
+  },
+  {
+    "exerciseName": "Low Incline Dumbbell Press",
+    "videoUrl": "https://youtu.be/kpzUeELReEA",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/kpzUeELReEA"
+  },
+  {
+    "exerciseName": "Incline Machine Chest Press",
+    "videoUrl": "https://youtu.be/abc1fisYB3w",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/abc1fisYB3w"
+  },
+  {
+    "exerciseName": "Low Incline Smith Machine Press",
+    "videoUrl": "https://youtu.be/R53nThQcdZo",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/R53nThQcdZo"
+  },
+  {
+    "exerciseName": "Low Incline Barbell Press",
+    "videoUrl": "https://youtu.be/jW4j7FoqudI",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/jW4j7FoqudI"
+  },
+  {
+    "exerciseName": "Low Incline Cable Press",
+    "videoUrl": "https://youtu.be/6qV1WZ_z0u0",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/6qV1WZ_z0u0"
+  },
+  {
+    "exerciseName": "Standing Mid-Chest Cable Fly",
+    "videoUrl": "https://youtu.be/fyFVaCP9J-8",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/fyFVaCP9J-8"
+  },
+  {
+    "exerciseName": "Banded Incline Push-Ups",
+    "videoUrl": "https://youtu.be/67V0-5gjEeA",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/67V0-5gjEeA"
+  },
+  {
+    "exerciseName": "Pec-Deck Machine Fly",
+    "videoUrl": "https://youtu.be/rnV3y1P7894",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/rnV3y1P7894"
+  },
+  {
+    "exerciseName": "Banded Push-Ups",
+    "videoUrl": "https://youtu.be/dI7LVElfMOg",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/dI7LVElfMOg"
+  },
+  {
+    "exerciseName": "Incline Dumbbell Press",
+    "videoUrl": "https://youtu.be/kpzUeELReEA",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/kpzUeELReEA"
+  },
+  {
+    "exerciseName": "Incline Dumbbell Fly",
+    "videoUrl": "https://youtu.be/WRn2hqy0gXU",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/WRn2hqy0gXU"
+  },
+  {
+    "exerciseName": "Dumbbell Fly",
+    "videoUrl": "https://youtu.be/WRn2hqy0gXU",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/WRn2hqy0gXU"
+  },
+  {
+    "exerciseName": "Seated Mid-Chest Cable Fly",
+    "videoUrl": "https://youtu.be/Y8E3dHNsSTU",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/Y8E3dHNsSTU"
+  },
+  {
+    "exerciseName": "Incline Barbell Press",
+    "videoUrl": "https://youtu.be/jW4j7FoqudI",
+    "targetMuscleGroup": "Chest",
+    "link": "https://youtu.be/jW4j7FoqudI"
+  },
+  {
+    "exerciseName": "RKC Plank",
+    "videoUrl": "https://youtu.be/lOgA1UfFbWY",
+    "targetMuscleGroup": "Core",
+    "link": "https://youtu.be/lOgA1UfFbWY"
+  },
+  {
+    "exerciseName": "Dead Bug",
+    "videoUrl": "https://youtu.be/UJ7b8gYa2Es",
+    "targetMuscleGroup": "Core",
+    "link": "https://youtu.be/UJ7b8gYa2Es"
+  },
+  {
+    "exerciseName": "Side Plank",
+    "videoUrl": "https://youtu.be/o4LGPtKjbhU",
+    "targetMuscleGroup": "Core",
+    "link": "https://youtu.be/o4LGPtKjbhU"
+  },
+  {
+    "exerciseName": "Palloff Press",
+    "videoUrl": "https://youtu.be/WhCH2CwVo4I",
+    "targetMuscleGroup": "Core",
+    "link": "https://youtu.be/WhCH2CwVo4I"
+  },
+  {
+    "exerciseName": "Bird Dog",
+    "videoUrl": "https://youtu.be/4qE_9h_6Hes",
+    "targetMuscleGroup": "Core",
+    "link": "https://youtu.be/4qE_9h_6Hes"
+  },
+  {
+    "exerciseName": "Barbell Hip Thrust",
+    "videoUrl": "https://youtu.be/_vBMijiZoxE",
+    "targetMuscleGroup": "Glutes",
+    "link": "https://youtu.be/_vBMijiZoxE"
+  },
+  {
+    "exerciseName": "Smith Machine Hip Thrust",
+    "videoUrl": "https://youtu.be/srYETmyq3_c",
+    "targetMuscleGroup": "Glutes",
+    "link": "https://youtu.be/srYETmyq3_c"
+  },
+  {
+    "exerciseName": "Hyperextensions (glute focus)",
+    "videoUrl": "https://youtu.be/bsXgCaIIwCg",
+    "targetMuscleGroup": "Glutes",
+    "link": "https://youtu.be/bsXgCaIIwCg"
+  },
+  {
+    "exerciseName": "Reverse Hyperextensions",
+    "videoUrl": "https://youtu.be/yRvF177yb88",
+    "targetMuscleGroup": "Glutes",
+    "link": "https://youtu.be/yRvF177yb88"
+  },
+  {
+    "exerciseName": "Glute Focused Leg Press",
+    "videoUrl": "https://youtu.be/p13BNdwR93A",
+    "targetMuscleGroup": "Glutes",
+    "link": "https://youtu.be/p13BNdwR93A"
+  },
+  {
+    "exerciseName": "Weighted Single Leg Hip Thrusts",
+    "videoUrl": "https://youtu.be/FKD9-qezw08",
+    "targetMuscleGroup": "Glutes",
+    "link": "https://youtu.be/FKD9-qezw08"
+  },
+  {
+    "exerciseName": "Side Lying Hip Raise",
+    "videoUrl": "https://youtu.be/ZieZ6pjc4fQ",
+    "targetMuscleGroup": "Glutes",
+    "link": "https://youtu.be/ZieZ6pjc4fQ"
+  },
+  {
+    "exerciseName": "Banded Hip Abductions",
+    "videoUrl": "https://youtu.be/CA0ALPgTkxw",
+    "targetMuscleGroup": "Glutes",
+    "link": "https://youtu.be/CA0ALPgTkxw"
+  },
+  {
+    "exerciseName": "Side Lying Leg Raise",
+    "videoUrl": "https://youtu.be/ht3Ayrre2HA",
+    "targetMuscleGroup": "Glutes",
+    "link": "https://youtu.be/ht3Ayrre2HA"
+  },
+  {
+    "exerciseName": "Dumbbell Romanian Deadlift",
+    "videoUrl": "https://youtu.be/Xu4DxwKWzl4",
+    "targetMuscleGroup": "Hamstrings",
+    "link": "https://youtu.be/Xu4DxwKWzl4"
+  },
+  {
+    "exerciseName": "Hyperextensions (back/hamstring)",
+    "videoUrl": "https://youtu.be/RU5d2H_OmSc",
+    "targetMuscleGroup": "Hamstrings",
+    "link": "https://youtu.be/RU5d2H_OmSc"
+  },
+  {
+    "exerciseName": "Barbell Romanian Deadlift",
+    "videoUrl": "https://youtu.be/Q-2telZDPRw",
+    "targetMuscleGroup": "Hamstrings",
+    "link": "https://youtu.be/Q-2telZDPRw"
+  },
+  {
+    "exerciseName": "Lying Leg Curls",
+    "videoUrl": "https://youtu.be/aYy3alWRDmk",
+    "targetMuscleGroup": "Hamstrings",
+    "link": "https://youtu.be/aYy3alWRDmk"
+  },
+  {
+    "exerciseName": "Swiss Ball Leg Curls",
+    "videoUrl": "https://youtu.be/uRBpd65dbYs",
+    "targetMuscleGroup": "Hamstrings",
+    "link": "https://youtu.be/uRBpd65dbYs"
+  },
+  {
+    "exerciseName": "Seated Leg Curls",
+    "videoUrl": "https://youtu.be/81umRgyxIAU",
+    "targetMuscleGroup": "Hamstrings",
+    "link": "https://youtu.be/81umRgyxIAU"
+  },
+  {
+    "exerciseName": "Dumbbell Lying Leg Curls",
+    "videoUrl": "https://youtu.be/Ot1MZipNLOQ",
+    "targetMuscleGroup": "Hamstrings",
+    "link": "https://youtu.be/Ot1MZipNLOQ"
+  },
+  {
+    "exerciseName": "Barbell Back Squat",
+    "videoUrl": "https://youtu.be/AWo-q7P-HZ0",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/AWo-q7P-HZ0"
+  },
+  {
+    "exerciseName": "Quad-Focused Leg Press",
+    "videoUrl": "https://youtu.be/0nrW-q7-WRQ",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/0nrW-q7-WRQ"
+  },
+  {
+    "exerciseName": "Smith Machine Squat",
+    "videoUrl": "https://youtu.be/zSVi51Jp3eI",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/zSVi51Jp3eI"
+  },
+  {
+    "exerciseName": "Bulgarian Split Squat (quad focus)",
+    "videoUrl": "https://youtu.be/r9XtxWSTlcg",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/r9XtxWSTlcg"
+  },
+  {
+    "exerciseName": "Reverse Lunges*",
+    "videoUrl": "https://youtu.be/AUEGDvCrQJA",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/AUEGDvCrQJA"
+  },
+  {
+    "exerciseName": "Single-Leg Leg Press",
+    "videoUrl": "https://youtu.be/hdioTTf8qdw",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/hdioTTf8qdw"
+  },
+  {
+    "exerciseName": "Dumbbell Goblet Squat*",
+    "videoUrl": "https://youtu.be/nYDEYFXN2Rs",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/nYDEYFXN2Rs"
+  },
+  {
+    "exerciseName": "Bulgarian Split Squat (glute focus)",
+    "videoUrl": "https://youtu.be/sqadB2rroz0",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/sqadB2rroz0"
+  },
+  {
+    "exerciseName": "Front Foot Elevated Reverse Lunge",
+    "videoUrl": "https://youtu.be/JySEdVXPUM8",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/JySEdVXPUM8"
+  },
+  {
+    "exerciseName": "Weighted Step-Ups*",
+    "videoUrl": "https://youtu.be/Cjc3AgmdtlA",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/Cjc3AgmdtlA"
+  },
+  {
+    "exerciseName": "Heel Elevated Goblet Squat",
+    "videoUrl": "https://youtu.be/l9crMLuT4II",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/l9crMLuT4II"
+  },
+  {
+    "exerciseName": "Walking Lunges (quad focus)",
+    "videoUrl": "https://youtu.be/JB20RuTOaFc",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/JB20RuTOaFc"
+  },
+  {
+    "exerciseName": "Front Foot Elevated Reverse Lunges",
+    "videoUrl": "https://youtu.be/JySEdVXPUM8",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/JySEdVXPUM8"
+  },
+  {
+    "exerciseName": "Barbell Back Box Squat*",
+    "videoUrl": "https://youtu.be/QryQO4VuPK8",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/QryQO4VuPK8"
+  },
+  {
+    "exerciseName": "Seated Leg Extensions",
+    "videoUrl": "https://youtu.be/nIalczfM8es",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/nIalczfM8es"
+  },
+  {
+    "exerciseName": "Heel Elevated Split Squat",
+    "videoUrl": "https://youtu.be/bJE0-eZLa6E",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/bJE0-eZLa6E"
+  },
+  {
+    "exerciseName": "Sissy Squat",
+    "videoUrl": "https://youtu.be/3SeCC8ABZ_Q",
+    "targetMuscleGroup": "Legs",
+    "link": "https://youtu.be/3SeCC8ABZ_Q"
+  },
+  {
+    "exerciseName": "Rear Delt Cable Row",
+    "videoUrl": "https://youtu.be/k9G7BykDD4o",
+    "targetMuscleGroup": "Rear Delts",
+    "link": "https://youtu.be/k9G7BykDD4o"
+  },
+  {
+    "exerciseName": "Chest Supported DB Rear Delt Row",
+    "videoUrl": "https://youtu.be/6LTUVaKpRCk",
+    "targetMuscleGroup": "Rear Delts",
+    "link": "https://youtu.be/6LTUVaKpRCk"
+  },
+  {
+    "exerciseName": "Rear Delt Cable Fly",
+    "videoUrl": "https://youtu.be/2Xepcd9FYvE",
+    "targetMuscleGroup": "Rear Delts",
+    "link": "https://youtu.be/2Xepcd9FYvE"
+  },
+  {
+    "exerciseName": "Standing Face Pulls",
+    "videoUrl": "https://youtu.be/02g7XtSRXug",
+    "targetMuscleGroup": "Rear Delts",
+    "link": "https://youtu.be/02g7XtSRXug"
+  },
+  {
+    "exerciseName": "Bent Over Dumbbell Face Pulls",
+    "videoUrl": "https://youtu.be/kA415Unr-_E",
+    "targetMuscleGroup": "Rear Delts",
+    "link": "https://youtu.be/kA415Unr-_E"
+  },
+  {
+    "exerciseName": "Standing Barbell Overhead Press",
+    "videoUrl": "https://youtu.be/S3kYKH32VqI",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/S3kYKH32VqI"
+  },
+  {
+    "exerciseName": "Seated Dumbbell Shoulder Press",
+    "videoUrl": "https://youtu.be/DPXG3BJvl8A",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/DPXG3BJvl8A"
+  },
+  {
+    "exerciseName": "Standing Dumbbell Shoulder Press",
+    "videoUrl": "https://youtu.be/jWriqmLrQqs",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/jWriqmLrQqs"
+  },
+  {
+    "exerciseName": "Seated Neutral-Grip DB Press*",
+    "videoUrl": "https://youtu.be/W35eREjZnhI",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/W35eREjZnhI"
+  },
+  {
+    "exerciseName": "Half Kneeling Landmine Press*",
+    "videoUrl": "https://youtu.be/JOOS3MPCT8s",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/JOOS3MPCT8s"
+  },
+  {
+    "exerciseName": "Dumbbell Lateral Raise",
+    "videoUrl": "https://youtu.be/zcO3sgAeLA0",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/zcO3sgAeLA0"
+  },
+  {
+    "exerciseName": "Cable Lateral Raise",
+    "videoUrl": "https://youtu.be/1muit9qEctY",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/1muit9qEctY"
+  },
+  {
+    "exerciseName": "Lying Incline Lateral Raise",
+    "videoUrl": "https://youtu.be/upEqeI0F73M",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/upEqeI0F73M"
+  },
+  {
+    "exerciseName": "Lean In Lateral Raise",
+    "videoUrl": "https://youtu.be/2q4kjTDg-vs",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/2q4kjTDg-vs"
+  },
+  {
+    "exerciseName": "Wall Slides",
+    "videoUrl": "https://youtu.be/x4zjfuLXHVk",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/x4zjfuLXHVk"
+  },
+  {
+    "exerciseName": "Wide Grip BB Upright Row (last resort)",
+    "videoUrl": "https://youtu.be/6BTMVh9AnCw",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/6BTMVh9AnCw"
+  },
+  {
+    "exerciseName": "Lying Incline Lateral Raises",
+    "videoUrl": "https://youtu.be/upEqeI0F73M",
+    "targetMuscleGroup": "Shoulders",
+    "link": "https://youtu.be/upEqeI0F73M"
+  },
+  {
+    "exerciseName": "Incline DB Overhead Extensions",
+    "videoUrl": "https://youtu.be/3d86xMhHROA",
+    "targetMuscleGroup": "Triceps",
+    "link": "https://youtu.be/3d86xMhHROA"
+  },
+  {
+    "exerciseName": "Overhead Rope Extensions",
+    "videoUrl": "https://youtu.be/7yoTblFCUQM",
+    "targetMuscleGroup": "Triceps",
+    "link": "https://youtu.be/7yoTblFCUQM"
+  },
+  {
+    "exerciseName": "Cable Pushdowns*",
+    "videoUrl": "https://youtu.be/MlfCS_7ZLXA",
+    "targetMuscleGroup": "Triceps",
+    "link": "https://youtu.be/MlfCS_7ZLXA"
+  },
+  {
+    "exerciseName": "Incline Barbell Skullcrushers",
+    "videoUrl": "https://youtu.be/XgwPiPY4vCI",
+    "targetMuscleGroup": "Triceps",
+    "link": "https://youtu.be/XgwPiPY4vCI"
+  },
+  {
+    "exerciseName": "Cross Cable Tricep Extensions",
+    "videoUrl": "https://youtu.be/Fua2QlXnn6Y",
+    "targetMuscleGroup": "Triceps",
+    "link": "https://youtu.be/Fua2QlXnn6Y"
+  },
+  {
+    "exerciseName": "Close-Grip Barbell Bench Press",
+    "videoUrl": "https://youtu.be/JzCGNgXuATs",
+    "targetMuscleGroup": "Triceps",
+    "link": "https://youtu.be/JzCGNgXuATs"
+  },
+  {
+    "exerciseName": "Close-Grip Push-Ups",
+    "videoUrl": "https://youtu.be/ZtAz8gupAss",
+    "targetMuscleGroup": "Triceps",
+    "link": "https://youtu.be/ZtAz8gupAss"
+  },
+  {
+    "exerciseName": "Close-Grip Dumbbell Press",
+    "videoUrl": "https://youtu.be/wHx9-aLjDOM",
+    "targetMuscleGroup": "Triceps",
+    "link": "https://youtu.be/wHx9-aLjDOM"
+  },
+  {
+    "exerciseName": "Close-Grip Smith Machine Press",
+    "videoUrl": "https://youtu.be/GIuRW-MDHK8",
+    "targetMuscleGroup": "Triceps",
+    "link": "https://youtu.be/GIuRW-MDHK8"
+  }
+]

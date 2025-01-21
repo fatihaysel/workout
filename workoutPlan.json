@@ -1,0 +1,208 @@
+[
+    {
+        "day": "Day 1",
+        "title": "Shoulders & Chest",
+        "exercises": [
+            {
+                "exerciseName": "Overhead Barbell Press",
+                "sets": 4,
+                "reps": "6-8",
+                "restTime": 90,
+                "tempo": "3-1-0-1"
+            },
+            {
+                "exerciseName": "Incline Barbell Bench Press",
+                "sets": 4,
+                "reps": "6-8",
+                "restTime": 90,
+                "tempo": "3-1-0-1"
+            },
+            {
+                "exerciseName": "Dumbbell Lateral Raises",
+                "sets": 4,
+                "reps": "12-15",
+                "restTime": 45,
+                "tempo": "2-1-2-0"
+            },
+            {
+                "exerciseName": "Flat Dumbbell Bench Press",
+                "sets": 3,
+                "reps": "8-10",
+                "restTime": 90,
+                "tempo": "3-1-0-1"
+            },
+            {
+                "exerciseName": "Rear Delt Dumbbell Fly",
+                "sets": 3,
+                "reps": "12-15",
+                "restTime": 45,
+                "tempo": "2-1-2-0"
+            }
+        ]
+    },
+    {
+        "day": "Day 2",
+        "title": "Back & Triceps",
+        "exercises": [
+            {
+                "exerciseName": "Pull-Ups (Wide Grip)",
+                "sets": 4,
+                "reps": "Max",
+                "restTime": 90,
+                "tempo": "Controlled"
+            },
+            {
+                "exerciseName": "Barbell Row",
+                "sets": 4,
+                "reps": "8-10",
+                "restTime": 90,
+                "tempo": "3-1-0-1"
+            },
+            {
+                "exerciseName": "Lat Pulldown",
+                "sets": 3,
+                "reps": "8-10",
+                "restTime": 60,
+                "tempo": "2-1-1-0"
+            },
+            {
+                "exerciseName": "Face Pulls",
+                "sets": 3,
+                "reps": "12-15",
+                "restTime": 45,
+                "tempo": "2-1-2-0"
+            },
+            {
+                "exerciseName": "Cable Triceps Pushdown",
+                "sets": 3,
+                "reps": "10-12",
+                "restTime": 60,
+                "tempo": "2-1-1-0"
+            },
+            {
+                "exerciseName": "Overhead Dumbbell Triceps Extension",
+                "sets": 3,
+                "reps": "10-12",
+                "restTime": 60,
+                "tempo": "2-1-1-0"
+            }
+        ]
+    },
+    {
+        "day": "Day 3",
+        "title": "Shoulders & Core",
+        "exercises": [
+            {
+                "exerciseName": "Seated Dumbbell Shoulder Press",
+                "sets": 4,
+                "reps": "8-10",
+                "restTime": 90,
+                "tempo": "3-1-1-0"
+            },
+            {
+                "exerciseName": "Dumbbell Lateral Raises",
+                "sets": 4,
+                "reps": "12-15",
+                "restTime": 45,
+                "tempo": "2-1-2-0"
+            },
+            {
+                "exerciseName": "Barbell Shrugs",
+                "sets": 3,
+                "reps": "12-15",
+                "restTime": 45,
+                "tempo": "3-0-1-0"
+            },
+            {
+                "exerciseName": "Arnold Press",
+                "sets": 3,
+                "reps": "8-10",
+                "restTime": 90,
+                "tempo": "3-1-1-0"
+            },
+            {
+                "exerciseName": "Hanging Leg Raises",
+                "sets": 3,
+                "reps": "12-15",
+                "restTime": 45,
+                "tempo": "2-1-2-0"
+            }
+        ]
+    },
+    {
+        "day": "Day 4",
+        "title": "Upper Body Power",
+        "exercises": [
+            {
+                "exerciseName": "Incline Barbell Bench Press",
+                "sets": 4,
+                "reps": "5-6",
+                "restTime": 120,
+                "tempo": "3-1-0-1"
+            },
+            {
+                "exerciseName": "Deadlift",
+                "sets": 4,
+                "reps": "5-6",
+                "restTime": 120,
+                "tempo": "2-1-1-0"
+            },
+            {
+                "exerciseName": "Pull-Ups (Weighted)",
+                "sets": 4,
+                "reps": "Max",
+                "restTime": 90,
+                "tempo": "Controlled"
+            },
+            {
+                "exerciseName": "Seated Dumbbell Shoulder Press",
+                "sets": 3,
+                "reps": "8-10",
+                "restTime": 90,
+                "tempo": "3-1-1-0"
+            },
+            {
+                "exerciseName": "Farmers Carry",
+                "sets": 3,
+                "reps": "30-40 meters",
+                "restTime": 60,
+                "tempo": "Controlled"
+            }
+        ]
+    },
+    {
+        "day": "Day 5",
+        "title": "Legs",
+        "exercises": [
+            {
+                "exerciseName": "Barbell Back Squat",
+                "sets": 4,
+                "reps": "6-8",
+                "restTime": 120,
+                "tempo": "3-1-0-1"
+            },
+            {
+                "exerciseName": "Romanian Deadlift",
+                "sets": 4,
+                "reps": "8-10",
+                "restTime": 90,
+                "tempo": "3-1-0-1"
+            },
+            {
+                "exerciseName": "Walking Lunges",
+                "sets": 3,
+                "reps": "12 steps",
+                "restTime": 60,
+                "tempo": "2-1-1-0"
+            },
+            {
+                "exerciseName": "Standing Calf Raises",
+                "sets": 3,
+                "reps": "15-20",
+                "restTime": 30,
+                "tempo": "3-0-1-1"
+            }
+        ]
+    }
+]
+
