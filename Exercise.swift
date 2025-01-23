@@ -6,3 +6,13 @@ struct Exercise: Codable, Identifiable {
     let targetMuscleGroup: String
     let videoUrl: String
 }
+
+
+func loadExercises() -> [Exercise] {
+    guard let url = Bundle.main.url(forResource: "exercises", withExtension: "json"),
+          let data = try? Data(contentsOf: url),
+          let exercises = try? JSONDecoder().decode([Exercise].self, from: data) else {
+        return [] // Return an empty array if JSON cannot be loaded or parsed
+    }
+    return exercises
+}
