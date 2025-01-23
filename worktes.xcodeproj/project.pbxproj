@@ -25,6 +25,7 @@
 		CEE9742E2D3FF2C800729D6A /* WorkoutHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9742D2D3FF2C800729D6A /* WorkoutHistory.swift */; };
 		CEE974302D3FF2F100729D6A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9742F2D3FF2F100729D6A /* HistoryView.swift */; };
 		CEE974322D40082300729D6A /* CompletedWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE974312D40082300729D6A /* CompletedWorkout.swift */; };
+		CEE974342D42F03300729D6A /* WorkoutPlanLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE974332D42F03300729D6A /* WorkoutPlanLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		CEE9742D2D3FF2C800729D6A /* WorkoutHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistory.swift; sourceTree = "<group>"; };
 		CEE9742F2D3FF2F100729D6A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		CEE974312D40082300729D6A /* CompletedWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedWorkout.swift; sourceTree = "<group>"; };
+		CEE974332D42F03300729D6A /* WorkoutPlanLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutPlanLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		CEE973E72D3EE2B500729D6A = {
 			isa = PBXGroup;
 			children = (
+				CEE974332D42F03300729D6A /* WorkoutPlanLoader.swift */,
 				CEE974312D40082300729D6A /* CompletedWorkout.swift */,
 				CEE9742F2D3FF2F100729D6A /* HistoryView.swift */,
 				CEE9742D2D3FF2C800729D6A /* WorkoutHistory.swift */,
@@ -303,6 +306,7 @@
 				CEE974302D3FF2F100729D6A /* HistoryView.swift in Sources */,
 				CEE9741E2D3FE96A00729D6A /* VideoListView.swift in Sources */,
 				CEE974262D3FEB8600729D6A /* Exercise.swift in Sources */,
+				CEE974342D42F03300729D6A /* WorkoutPlanLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

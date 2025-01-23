@@ -15,3 +15,5 @@ struct WorkoutExercise: Codable, Identifiable {
     let restTime: Int
     let tempo: String
 }
+
+

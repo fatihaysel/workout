@@ -2,49 +2,81 @@ import SwiftUI
 
 struct WorkoutPlanView: View {
     let workoutPlan: [WorkoutDay] = loadWorkoutPlan()
+    @State private var expandedSections: Set<UUID> = [] // Tracks which sections are expanded
+    @State private var selectedWorkoutDay: WorkoutDay? = nil
+    @State private var navigateToWorkoutTracker: Bool = false
 
     var body: some View {
         NavigationView {
-            List(workoutPlan) { day in
-                Section(header: Text(day.day + ": " + day.title)) {
-                    ForEach(day.exercises) { exercise in
-                        VStack(alignment: .leading) {
-                            Text(exercise.exerciseName)
-                                .font(.headline)
-                            Text("Sets: \(exercise.sets) | Reps: \(exercise.reps) | Tempo: \(exercise.tempo)")
-                                .font(.subheadline)
-                                .foregroundColor(.gray)
-                        }
-                    }
+            List {
+                ForEach(workoutPlan) { day in
+                    workoutDaySection(for: day)
                 }
             }
             .navigationTitle("Workout Plan")
+            .background(
+                NavigationLink(
+                    destination: workoutTrackerView(),
+                    isActive: $navigateToWorkoutTracker,
+                    label: { EmptyView() }
+                )
+            )
         }
     }
-}
 
-// Helper function to load the JSON data
-func loadWorkoutPlan2() -> [WorkoutDay] {
-    guard let url = Bundle.main.url(forResource: "workoutPlan", withExtension: "json"),
-          let data = try? Data(contentsOf: url),
-          let plan = try? JSONDecoder().decode([WorkoutDay].self, from: data) else {
-        return []
+    private func workoutDaySection(for day: WorkoutDay) -> some View {
+        DisclosureGroup(
+            isExpanded: Binding(
+                get: { expandedSections.contains(day.id) },
+                set: { isExpanded in
+                    if isExpanded {
+                        expandedSections.insert(day.id)
+                    } else {
+                        expandedSections.remove(day.id)
+                    }
+                }
+            ),
+            content: {
+                ForEach(day.exercises) { exercise in
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(exercise.exerciseName)
+                            .font(.headline)
+                        Text("Sets: \(exercise.sets) | Reps: \(exercise.reps) | Tempo: \(exercise.tempo)")
+                            .font(.subheadline)
+                            .foregroundColor(.gray)
+                    }
+                    .padding(.vertical, 4)
+                }
+                Button(action: {
+                    selectedWorkoutDay = day
+                    navigateToWorkoutTracker = true
+                }) {
+                    Text("Start")
+                        .font(.headline)
+                        .padding()
+                        .frame(maxWidth: .infinity)
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                        .padding(.top, 8)
+                }
+            },
+            label: {
+                Text(day.day + ": " + day.title)
+                    .font(.headline)
+            }
+        )
+        .padding(.vertical, 4)
     }
-    return plan
-}
 
-func loadWorkoutPlan() -> [WorkoutDay] {
-    guard let url = Bundle.main.url(forResource: "workoutPlan", withExtension: "json") else {
-        print("JSON file not found.")
-        return []
-    }
-    
-    do {
-        let data = try Data(contentsOf: url)
-        let plan = try JSONDecoder().decode([WorkoutDay].self, from: data)
-        return plan
-    } catch {
-        print("Error decoding JSON: \(error)")
-        return []
+    private func workoutTrackerView() -> some View {
+        if let selectedDay = selectedWorkoutDay {
+            return AnyView(WorkoutTrackerView(
+                isWorkoutComplete: .constant(false), // Match argument order
+                day: selectedDay
+            ))
+        } else {
+            return AnyView(EmptyView())
+        }
     }
 }
